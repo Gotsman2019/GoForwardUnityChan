@@ -14,10 +14,7 @@ public class TouchSound : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
         }
-        else
-        {
-            GetComponent<AudioSource>().volume = 0;
-        }
+
     }
     // Start is called before the first frame update
     void Start()
